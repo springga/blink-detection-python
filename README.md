@@ -1,7 +1,7 @@
 # Blink detection with dlib
 
 ### Introduction
-![blink detection animation](blink_detection_animation.gif)
+![blink detection animation](blink_detection_animation.gif)<br>
 (source: [pyimagesearch](https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/))
 
 Thanks to the powerful [dlib](https://github.com/davisking/dlib), robust and efficient blink detection is achieved within 100 lines of code. Comparing to my other repo [blink-detection-js](https://github.com/springga/blink-detection-js), dlib handles dark condition and fast blinks quite reliably.
