@@ -10,8 +10,14 @@ Thanks to the powerful [dlib](https://github.com/davisking/dlib), robust and eff
 - [dlib](https://github.com/davisking/dlib)
 - [opencv](https://github.com/opencv/opencv)
 
+### Install dlib on Windows
+Most google results for installing dlib on Windows require Visual Studio and CMake.
+But I found a simple whl file can avoid all the pain.
+Download [dlib-19.8.1-cp36-cp36m-win_amd64.whl](https://pypi.org/project/dlib/19.8.1/#files) and simply run:
+pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
+
 ### Download
-[dlib facical landmarks model](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) (save in the project folder)
+[dlib facical landmarks model](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) (unzip to the project folder)
 
 ### Run
 python blink_detection.py
